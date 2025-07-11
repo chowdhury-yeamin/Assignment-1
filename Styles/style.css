@@ -139,11 +139,76 @@ ul li {
   margin: 0; 
 
 }
-/* .user-item{
-  text-align: center; */
 
 .user-item p {
   color: #666;
   font-size: 20px;
   margin: 4px 0 0; 
+}
+
+
+
+
+/* cards */
+
+
+
+.raitings{
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.raitings h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.stars img {
+  width: 20px;
+  margin-right: 2px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #1a1a1a;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.reviewer span {
+  font-size: 0.85rem;
+  color: gray;
 }
