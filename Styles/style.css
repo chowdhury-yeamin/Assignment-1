@@ -65,5 +65,44 @@ ul li {
    justify-content: center; 
 }
 
+.action-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+  gap: 50px;
+}
+.first-img{
+  justify-content: right;
+  border-radius: 48px;
+}
+.action-title{
+  font-size: 42px;
+  color: #252432;
+  font-weight: bold; 
+}
+
+.action-content{
+  max-width: 500px;
+}
+.action-content p {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+
+.action-btn{ 
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem; ;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4E47FF;
+  color: white
+}
+
 
 
