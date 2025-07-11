@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   text-align: center; */
-header{
+
+  body {
+  font-family: 'Inter', sans-serif;
+ }
+  header{
   height: 100vh;
   background-image: url('../Assets/Hero-bg.png');
   background-size: cover;
@@ -70,7 +74,7 @@ ul li {
   align-items: center;
   justify-content: space-between;
   padding: 80px 100px;
-  gap: 50px;
+  gap: 20px;
 }
 .first-img{
   justify-content: right;
@@ -104,5 +108,42 @@ ul li {
   color: white
 }
 
+.users-section-title{
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 30px;
+}
 
+.users-section {
+  background-color: #eef0ff;
+  border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1140px;
+  max-height: 277px;
+  margin: 0 auto;
+}
 
+.items{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.user-item h3{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0; 
+
+}
+/* .user-item{
+  text-align: center; */
+
+.user-item p {
+  color: #666;
+  font-size: 20px;
+  margin: 4px 0 0; 
+}
